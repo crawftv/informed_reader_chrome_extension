@@ -1,5 +1,5 @@
 //credit goes to Steven Frank of Cloud to Butt (https://github.com/panicsteve/cloud-to-butt/)
-
+//creadit also goes to https://github.com/laurenorsini and her article http://readwrite.com/2014/08/29/chrome-extension-build-your-own-caaaaarbs/
 walk(document.body);
 
 function walk(node)
