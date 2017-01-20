@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Informed Reader",
+	"version": "1.0",
+	"description": "Points out sources of funding that obscures objectivity in news'.",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
